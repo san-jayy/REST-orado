@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Rancho&family=Viaoda+Libre&family=Kaushan+Script&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+/* =========nav bar======= */
+
+.admin {
+  margin-right: 100px;
+  color:white;
+  border: 1px solid black;
+  
+}
+.admin:hover {
+  text-decoration: underline 1px solid;
+  font-weight: 500;
+  color: white;
+}
+.bg-company-red {
+  background-color: transparent !important;
+}
+.act-home {
+  font-weight: bold;
+}
+.nav-item {
+  font-size: 1.2rem;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.nav-item:hover {
+  text-decoration: underline 2px solid;
+  
+}
+.navbar-brand {
+  margin-left: 30px;
+  background-color: #fce627;
+  padding: 15px;
+  border-radius: 5px;
+}
+.navbar {
+  margin: 0;
+}
+/* ========end of navbar=========== */
+
+
+/* ========homepage======== */
+.Home {
+  margin: 100px auto 150px auto;
+  position: relative;
+  width: 70%;
+}
+h1 {
+  color: #0a1d37;
+  font-family: "Pacifico", cursive;
+}
+
+img {
+  width: 50%;
+  height: 450px;
+  border-radius: 1px 81px 38px 93px;
+}
+.homepage {
+  display: flex;
+}
+.homedisc {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 50px;
+  
+  border-radius: 8px 0 0 8px;
+}
+.fresh {
+  font-size: 250%;
+  color: #ff005c;
+  margin: 10px;
+  text-decoration: underline;
+  font-family: "Pacifico", cursive;
+}
+.intro-text {
+  padding: 20px;
+  width: 70%;
+  line-height: 1.8;
+  font-size: 1.7rem;
+  font-family: "Rancho", cursive;
+}
+.order-button {
+  text-decoration: none;
+  padding: 20px;
+  margin: 30px;
+  font-size: 1rem;
+  color: #e4fbff;
+  background-color: #ff005c;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.order-button:hover {
+  background-color: #ff001e;
+  color: white;
+}
+
+
+/* =========== media for screen b/w big screen and tab */
+@media screen and (max-width: 1350px) {
+  .Home {
+    width: 90%;
+  }
+  .intro-text{
+    width: 90%;
+  }
+}
+/* ========end of temp media */
+
+/* ===========media querie for width > 490 and < 950============ */
+@media screen and (max-width: 950px) and (min-width: 391px) {
+  img {
+    width: 100%;
+    height: 330px;
+  border-radius: 0;
+  }
+  h1{
+    
+   font-weight: 500;
+   margin-bottom: 0;
+  }
+  .admin {
+    margin-right: 100px;
+    color: black;
+    border: 1px solid black;
+  }
+  .navbar-brand{
+    text-decoration: underline 2px solid black;
+  }
+ .homedisc{
+   text-align: left;
+   padding: 0;
+ }
+
+  .homepage {
+    flex-direction: column;
+  }
+.Home{
+ margin-top: 0;
+ margin-bottom: 50px;
+}
+.navbar-brand {
+background-color: transparent;
+}
+
+  .intro-text {
+    width: 95%;
+    margin: 0;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+
+ .order-button
+ {
+  margin-left: 20px;
+  font-size: 1rem;
+  color: white;
+  font-weight: 500;
+ } 
+ .head{
+   margin-top: 10px;
+   font-size: 2.5rem;
+ }
+ .fresh{
+   font-size: 2rem;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------- menu-start-------------------- */
+section {
+  margin-top: 100px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+div.menu {
+  background-color: rgb(248, 246, 246);
+  position: relative;
+  width: 40%;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+  margin: 10px;
+  box-shadow: rgb(213, 210, 208) 5px 5px 15px, rgb(255, 255, 255) -5px -5px 15px;
+  display: inline-block;
+  overflow: auto;
+}
+
+.image {
+  height: 80px;
+  width: 80px;
+  border-radius: 5px 5px 5px 5px;
+  float: left;
+}
+.item {
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  color: rgb(5, 5, 5);
+  margin-right: 220px;
+}
+.rating {
+  margin-right: 25px;
+  padding: 10px;
+  margin-right: 240px;
+  font-size: 20px;
+}
+.add {
+  padding: 15px 25px 15px 25px;
+  background-color: #f25287;
+  color: white;
+  border: 0;
+  position: absolute;
+  bottom: 30%;
+  right: 15%;
+}
+
+.add:hover {
+  padding: 12px 22px 12px 22px;
+  background-color: #f25265;
+}
+
+/* -----------end of menu----------------- */
+
+/* -------------start of ratings ------------------- */
+
+.ratingsdiv {
+  background-color: rgb(248, 246, 246);
+  position: relative;
+  width: 280px;
+  height: 220px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 10px 20px 10px;
+  margin: 35px;
+  box-shadow: rgb(213, 210, 208) 5px 5px 15px, rgb(255, 255, 255) -5px -5px 15px;
+  display: inline-block;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 60px;
+}
+.ratings {
+  position: relative;
+  margin-bottom: 200px;
+}
+.rating-div1 {
+  text-align: left;
+  position: absolute;
+  left: 400px;
+  top: 220px;
+}
+.rating-div3 {
+  text-align: left;
+  position: absolute;
+  right: 400px;
+  top: 220px;
+}
+
+.rat-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.discription {
+  margin-top: 10px;
+  color: rgb(10, 10, 10);
+}
+
+.stars {
+  position: absolute;
+  top: 45px;
+  right: 40px;
+}
+
+@media screen and (max-width: 999px) {
+  .admin {
+    margin-right: 0px;
+    color: aliceblue;
+    display: inline;
+  }
+
+  /* rating card */
+  div.menu {
+    color: #f25265;
+    width: 300px;
+    height: 60px;
+    margin: 5px;
+  }
+  .image {
+    height: 60px;
+    width: 60px;
+  }
+  .item {
+    font-size: 20px;
+    margin: 6px;
+    color: black;
+    position: relative;
+    right: 40px;
+  }
+  .rating {
+    margin: 5%;
+    font-size: 15px;
+    position: relative;
+    right: 50px;
+    padding: 0;
+  }
+  .add {
+    padding: 10px 18px 10px 18px;
+    position: absolute;
+    right: 40px;
+    border-radius: 4px;
+  }
+  .add:hover {
+    background-color: #f25265;
+    color: black;
+    padding: 10.5px 18.5px 10.5px 18.5px;
+  }
+
+  /* ===========rating============= */
+
+  .ratingsdiv {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .div1 {
+    background-color: #f25265;
+    position: relative;
+    right: 3%;
+  }
+  .div2 {
+    background-color: #fce627;
+    position: relative;
+    left: 6%;
+    bottom: 75px;
+  }
+  .div3 {
+    background-color: #f25265;
+    position: relative;
+    right: 5%;
+    bottom: 150px;
+  }
+}
