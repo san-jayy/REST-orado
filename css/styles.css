@@ -36,8 +36,13 @@ html {
 }
 .nav-item {
   font-size: 1.2rem;
+<<<<<<< HEAD
   margin-left: 10px;
   margin-right: 10px;
+=======
+  margin-left: 20px;
+  margin-right: 20px;
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
 }
 .nav-item:hover {
   text-decoration: underline 2px solid;
@@ -169,8 +174,11 @@ hr{
   position: relative;
   top: 70px;
   flex: 0 1 auto;
+<<<<<<< HEAD
   border-radius: 8px;
   transform: rotate(210deg);
+=======
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
 }
 .about-div{
   padding-top: 100px;
@@ -186,7 +194,11 @@ hr{
 }
 
 .about-intro-text{
+<<<<<<< HEAD
   width: 80%;
+=======
+  width: 70%;
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
   line-height: 1.5;
   font-size: 1.3rem;
   padding: 10px;
@@ -288,7 +300,11 @@ hr{
 /* ========end of temp media */
 
 /* ===========media querie for width > 490 and < 950============ */
+<<<<<<< HEAD
 @media screen and (max-width: 950px) and (min-width: 291px) {
+=======
+@media screen and (max-width: 950px) and (min-width: 391px) {
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
   img {
     width: 100%;
     height: 330px;
@@ -320,7 +336,11 @@ background-color: transparent;
 }
 
   .intro-text {
+<<<<<<< HEAD
     width: 85%;
+=======
+    width: 95%;
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
     margin: 0;
     margin-bottom: 30px;
     line-height: 1.5;
@@ -340,9 +360,12 @@ background-color: transparent;
  .fresh{
    font-size: 2rem;
  }
+<<<<<<< HEAD
  hr{
    border-width: 4px;
  }
+=======
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
  /* ==== mq for about section ==== */
  
  .about-us{
@@ -355,13 +378,18 @@ background-color: transparent;
  }
  .about-intro-text
  {
+<<<<<<< HEAD
    width: 100%;  
+=======
+   width: 95%;  
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
    padding-right: 15px;
    padding-top: 0;
   
  }
  .aboutimg1{
   position: absolute;
+<<<<<<< HEAD
   
   width: 82%;
   height: 500px;
@@ -371,6 +399,12 @@ background-color: transparent;
   transform: rotate(  30deg);
 
   z-index: -1;
+=======
+  top: 0%;
+  height: 800px;
+  width: 100%;
+  left: 70%;
+>>>>>>> 259135cedaaacbfb260716e58423f44507477b05
  }
 }
 
