@@ -36,13 +36,8 @@ html {
 }
 .nav-item {
   font-size: 1.2rem;
-<<<<<<< HEAD
   margin-left: 10px;
   margin-right: 10px;
-=======
-  margin-left: 20px;
-  margin-right: 20px;
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
 }
 .nav-item:hover {
   text-decoration: underline 2px solid;
@@ -93,7 +88,6 @@ img {
   height: 450px;
   border-radius: 1px 81px 38px 93px;
   flex: 0 1 auto;
-<<<<<<< HEAD
 }
 hr{
   border: dotted #0a1d37;
@@ -105,19 +99,6 @@ hr{
  background-color: transparent;
  opacity: 1;
 }
-=======
-}
-hr{
-  border: dotted #0a1d37;
-  border-bottom: 0;
-  color: #0a1d37;
-  width: 10%;
-  border-width: 10px;
- margin: 100px auto 0px auto;
- background-color: transparent;
- opacity: 1;
-}
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
 
 .homepage {
   display: flex;
@@ -188,11 +169,8 @@ hr{
   position: relative;
   top: 70px;
   flex: 0 1 auto;
-<<<<<<< HEAD
   border-radius: 8px;
   transform: rotate(210deg);
-=======
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
 }
 .about-div{
   padding-top: 100px;
@@ -208,11 +186,7 @@ hr{
 }
 
 .about-intro-text{
-<<<<<<< HEAD
   width: 80%;
-=======
-  width: 70%;
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
   line-height: 1.5;
   font-size: 1.3rem;
   padding: 10px;
@@ -366,12 +340,9 @@ background-color: transparent;
  .fresh{
    font-size: 2rem;
  }
-<<<<<<< HEAD
  hr{
    border-width: 4px;
  }
-=======
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
  /* ==== mq for about section ==== */
  
  .about-us{
@@ -384,18 +355,13 @@ background-color: transparent;
  }
  .about-intro-text
  {
-<<<<<<< HEAD
    width: 100%;  
-=======
-   width: 95%;  
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
    padding-right: 15px;
    padding-top: 0;
   
  }
  .aboutimg1{
   position: absolute;
-<<<<<<< HEAD
   
   width: 82%;
   height: 500px;
@@ -405,12 +371,6 @@ background-color: transparent;
   transform: rotate(  30deg);
 
   z-index: -1;
-=======
-  top: 0%;
-  height: 800px;
-  width: 100%;
-  left: 70%;
->>>>>>> 259135cedaaacbfb260716e58423f44507477b05
  }
 }
 
