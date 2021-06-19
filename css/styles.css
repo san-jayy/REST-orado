@@ -87,6 +87,7 @@ img {
   width: 50%;
   height: 450px;
   border-radius: 1px 81px 38px 93px;
+  flex: 0 1 auto;
 }
 hr{
   border: dotted #0a1d37;
@@ -101,6 +102,8 @@ hr{
 
 .homepage {
   display: flex;
+  flex: 0 1 auto;
+  align-items: flex-start;
 }
 .homedisc {
   text-align: left;
@@ -140,14 +143,17 @@ hr{
 /* ======== end of homepage ========== */
 
 /* ====== about us ======= */
-.about-section{
-margin-top: 10px;
-margin-bottom: 100px;
+.about{
+  margin: 10px auto 100px auto;
+  position: relative;
   
+
+
 }
 .about-us{
   
   display: flex;
+  flex: 0 1 auto;
   width: 70%;
   margin-left: auto;
   margin-right: auto;
@@ -159,8 +165,10 @@ margin-bottom: 100px;
 }
 .aboutimg1{
   height: 400px;
+  width: 50%;
   position: relative;
   top: 70px;
+  flex: 0 1 auto;
 }
 .about-div{
   padding-top: 100px;
@@ -334,15 +342,25 @@ background-color: transparent;
  
  .about-us{
    width: 90%;
+   padding-top: 0;
    
+ }
+ .about-div{
+   width: 80%;
  }
  .about-intro-text
  {
    width: 95%;  
+   padding-right: 15px;
+   padding-top: 0;
   
  }
  .aboutimg1{
-   width: 55%;
+  position: absolute;
+  top: 0%;
+  height: 800px;
+  width: 100%;
+  left: 70%;
  }
 }
 
@@ -494,11 +512,12 @@ background-color: transparent;
 
 
 
+/* 
 
 
-/*-------------- menu-start-------------------- */
+============ ratings================
 section {
-  margin-top: 100px;
+  margin-top: 0px;
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -550,11 +569,9 @@ div.menu {
   padding: 12px 22px 12px 22px;
   background-color: #f25265;
 }
+==============end of menu===========
 
-/* -----------end of menu----------------- */
-
-/* -------------start of ratings ------------------- */
-
+============= ratings =================
 .ratingsdiv {
   background-color: rgb(248, 246, 246);
   position: relative;
@@ -614,7 +631,7 @@ h1 {
     display: inline;
   }
 
-  /* rating card */
+  
   div.menu {
     color: #f25265;
     width: 300px;
@@ -651,7 +668,7 @@ h1 {
     padding: 10.5px 18.5px 10.5px 18.5px;
   }
 
-  /* ===========rating============= */
+
 
   .ratingsdiv {
     margin-top: 10px;
@@ -676,4 +693,4 @@ h1 {
     right: 5%;
     bottom: 150px;
   }
-}
+} */
