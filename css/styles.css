@@ -10,11 +10,17 @@ html {
   scroll-behavior: smooth;
 }
 /* =========nav bar======= */
-
+.navbar {
+  margin: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow: hidden;
+ width: 100%;
+}
 .admin {
   margin-right: 100px;
   color:white;
-  border: 1px solid black;
   
 }
 .admin:hover {
@@ -23,41 +29,58 @@ html {
   color: white;
 }
 .bg-company-red {
-  background-color: transparent !important;
+  background-color: #0a1d37 !important;
 }
 .act-home {
   font-weight: bold;
 }
 .nav-item {
   font-size: 1.2rem;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .nav-item:hover {
   text-decoration: underline 2px solid;
-  
 }
+nav .navbar-nav li a{
+  color: white !important;
+  }
+  nav .navbar-brand a{
+    color: white;
+  }
 .navbar-brand {
   margin-left: 30px;
-  background-color: #fce627;
-  padding: 15px;
+font-size: 1.5rem;
+  padding: 10px;
   border-radius: 5px;
+  color: white;
+ 
 }
-.navbar {
-  margin: 0;
+.navbar-brand .rest{
+  color: red;
+  font-family: "Pacifico", cursive;
+}
+button.navbar-toggler.navbar-dark{
+  border: 1.5px solid red;
 }
 /* ========end of navbar=========== */
 
 
 /* ========homepage======== */
 .Home {
-  margin: 100px auto 150px auto;
+  margin: 100px auto 10px auto;
   position: relative;
   width: 70%;
+  padding-top: 50px;
+
 }
 h1 {
   color: #0a1d37;
   font-family: "Pacifico", cursive;
+}
+p{
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -65,6 +88,17 @@ img {
   height: 450px;
   border-radius: 1px 81px 38px 93px;
 }
+hr{
+  border: dotted #0a1d37;
+  border-bottom: 0;
+  color: #0a1d37;
+  width: 10%;
+  border-width: 10px;
+ margin: 100px auto 0px auto;
+ background-color: transparent;
+ opacity: 1;
+}
+
 .homepage {
   display: flex;
 }
@@ -103,14 +137,141 @@ img {
   background-color: #ff001e;
   color: white;
 }
+/* ======== end of homepage ========== */
+
+/* ====== about us ======= */
+.about-section{
+margin-top: 10px;
+margin-bottom: 100px;
+  
+}
+.about-us{
+  
+  display: flex;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-top: 100px;
+  padding-bottom: 40px;
+ 
+  text-align: left;
+}
+.aboutimg1{
+  height: 400px;
+  position: relative;
+  top: 70px;
+}
+.about-div{
+  padding-top: 100px;
+}
+.about-sec-head
+{
+  color: #ff005c;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 0;
+}
+
+.about-intro-text{
+  width: 70%;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  padding: 10px;
+  margin: 20px;
+  margin-left: 0;
+}
+.about-button{
+  text-decoration: none;
+  padding: 15px;
+  margin:30px;
+  margin-left: 0;
+  font-size: 1rem;
+  color: #e4fbff;
+  background-color: #ff005c;
+  letter-spacing: 2px;
+  border-radius: 50px;
+}
+.about-button:hover{
+  background-color: #ff001e;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* =========== media for screen b/w big screen and tab */
 @media screen and (max-width: 1350px) {
   .Home {
     width: 90%;
+  
+    padding-top: 100px;
   }
   .intro-text{
+    width: 90%;
+  }
+  .about-us{
     width: 90%;
   }
 }
@@ -121,20 +282,16 @@ img {
   img {
     width: 100%;
     height: 330px;
-  border-radius: 0;
+  
   }
   h1{
     
    font-weight: 500;
    margin-bottom: 0;
   }
-  .admin {
-    margin-right: 100px;
-    color: black;
-    border: 1px solid black;
-  }
-  .navbar-brand{
-    text-decoration: underline 2px solid black;
+
+  .navbar-brand:hover{
+    color: white;
   }
  .homedisc{
    text-align: left;
@@ -172,6 +329,20 @@ background-color: transparent;
  }
  .fresh{
    font-size: 2rem;
+ }
+ /* ==== mq for about section ==== */
+ 
+ .about-us{
+   width: 90%;
+   
+ }
+ .about-intro-text
+ {
+   width: 95%;  
+  
+ }
+ .aboutimg1{
+   width: 55%;
  }
 }
 
