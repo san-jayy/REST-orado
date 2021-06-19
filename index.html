@@ -1,76 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>El-Restorado</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+  </head>
+  <body>
 
     <!-- -----------------------------Home--------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-company-red ">
+    <nav class="navbar navbar-expand-lg  bg-company-red">
       <div class="container-fluid">
-        <a class="navbar-brand me-auto" href="#">REST-orado</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand me-auto" href="#"><span class="rest">REST-</span>orado</a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon navbar-light bg-danger"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto ">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active act-home" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#services">Services</a>
+              <a class="nav-link active" href="#about-section">about-us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Food</a>
+              <a class="nav-link active" href="#services">services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active " href="#">Contact Us</a>
+              <a class="nav-link active"href="#">menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active"href="#">contact us</a>
             </li>
           </ul>
 
-     <a  class="admin active nav-link ms-md-auto bg-dark " href="#">Admin|login</a>
+          <a class="admin active nav-link ms-md-auto "href="#">Admin|login</a>
         </div>
       </div>
-    </nav>   
+    </nav>
     <!-- ==========homepage============= -->
-<section class="Home">
+    <section class="Home">
 
-<div class="homepage">
+      <div class="homepage">
 
-  <img class="home-image" src="images/homepic.jpg" alt="image">
+        <img class="home-image" src="images/homepic.jpg" alt="image">
+
+        <div class="homedisc">
+          <h1 class="head">Start something </h1><br>
+          <span class="fresh">fresh</span>
+          <p class="intro-text">Authentic mediterranian flavors you won't find
+            anywhare else.Recipies handed down for generations. And a serious
+            obsession with doing Right.
+          </p>
+          <a class="order-button" href="#services">Get started</a>
+        </div>
+
+      </div>
+      <hr >
+    </section>
+
   
-  <div class="homedisc"> 
-    <h1 class="head">Start something </h1><br>
-    <span class="fresh">fresh</span>
-    <p class="intro-text">Authentic mediterranian flavors you won't find anywhare else.Recipies handed down for generations. And a serious obsession with doing Right.
-    </p>
-    <a class="order-button" href="#services">Get started</a>
+
+    <!-- ========end of homepage========== -->
+
+<!-- =======  about us ======= -->
+<section id="about-section" class="about" >
+  <div class="about-us">
+   
+    <div class="about-div"> <span class="about-sec-head">about us</span>
+      <h4 class="about-intro-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, illum! Labore minima non quia officia optio fuga doloremque, a est incidunt dolore temporibus nemo architecto placeat saepe excepturi modi commodi.</h3>
+      <a class="about-button" href="#">view history</a>
+    </div>
+    
+    <img class="aboutimg1" src="images/about3.jpg" alt="about">
   </div>
- 
-</div>
-</section>
-
-<section id="services" style="height: 800px; background-color: aquamarine;">
-Services
 </section>
 
 
+<!-- ===== end of about section ======= -->
+<!-- ====== servicec========== -->
+<section id="services" style="height: 800px; background-color: rgb(238, 15, 15);">
+  Services
+</section>
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"></script>
 
-
-
-
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</body>
+  </body>
 </html>
 
 
@@ -118,75 +153,9 @@ Services
   <button class="add">add </button>
 </div>
 
-<div class="menu">
- <img class="image" src="images/1.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
-<h1 class="menuhead">something</h1>
-<div class="menu">
-  <img class="image" src="images/4.jpg" alt="menu image">
-  <h3 class="item"> veg margarita</h3> 
-  <span class="rating">⭐⭐⭐⭐⭐</span>
-  <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/2.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/5.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/1.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
-<div class="menu">
-  <img class="image" src="images/4.jpg" alt="menu image">
-  <h3 class="item"> veg margarita</h3> 
-  <span class="rating">⭐⭐⭐⭐⭐</span>
-  <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/2.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
 
-<h1 class="menuhead">something</h1>
-<div class="menu">
-  <img class="image" src="images/4.jpg" alt="menu image">
-  <h3 class="item"> veg margarita</h3> 
-  <span class="rating">⭐⭐⭐⭐⭐</span>
-  <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/2.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/5.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
-<div class="menu">
- <img class="image" src="images/1.jpg" alt="menu image">
- <h3 class="item"> veg margarita</h3> 
- <span class="rating">⭐⭐⭐⭐⭐</span>
- <button class="add">add </button>
-</div>
+
+
 
 </section>
 
