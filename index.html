@@ -11,6 +11,8 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
   </head>
   <body>
 
@@ -22,12 +24,13 @@
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false"
           aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon navbar-light bg-danger"></span>
+       
+          <span class="navbar-toggler-icon navbar-light bg-company-red"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active act-home" aria-current="page" href="#">Home</a>
+              <a class="nav-link active act-home"  href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="#about-section">about-us</a>
@@ -43,7 +46,7 @@
             </li>
           </ul>
 
-          <a class="admin active nav-link ms-md-auto "href="#">Admin|login</a>
+          <a class="admin active nav-link ms-md-auto "href="admin_log.html">Admin|login</a>
         </div>
       </div>
     </nav>
@@ -52,9 +55,9 @@
 
       <div class="homepage">
 
-        <img class="home-image" src="images/homepic.jpg" alt="image">
+        <img class="home-image" data-aos="fade-right" src="images/homepic.jpg" alt="image">
 
-        <div class="homedisc">
+        <div class="homedisc" data-aos="fade-left">
           <h1 class="head">Start something </h1><br>
           <span class="fresh">fresh</span>
           <p class="intro-text">Authentic mediterranian flavors you won't find
@@ -74,21 +77,22 @@
 
 <!-- =======  about us ======= -->
 <section id="about-section" class="about" >
-  <div class="about-us">
+  <div class="about-us" >
    
-    <div class="about-div"> <span class="about-sec-head">about us</span>
+    <div class="about-div" data-aos="zoom-in"> <span class="about-sec-head">about us</span>
       <h4 class="about-intro-text" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, illum! Labore minima non quia officia optio fuga doloremque, a est incidunt dolore temporibus nemo architecto placeat saepe excepturi modi commodi.</h3>
       <a class="about-button" href="#">view history</a>
     </div>
     
     <img class="aboutimg1" src="images/about3.jpg" alt="about">
+    <img class="aboutimg2" data-aos="zoom-in"src="images/plate2.png" alt="i">
   </div>
 </section>
 
 
 <!-- ===== end of about section ======= -->
 <!-- ====== servicec========== -->
-<section id="services" style="height: 800px; background-color: rgb(238, 15, 15);">
+<section id="services" style="height: 800px; ">
   Services
 </section>
 
@@ -104,6 +108,20 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
+      <script>
+        const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarSupportedContent')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+
+
+      </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
   </body>
 </html>
