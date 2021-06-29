@@ -4,6 +4,11 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  position: relative;
+  background-image: url('images/about4.jpg') repeat 0 0; background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -99,15 +104,15 @@ p {
 
 img {
   width: 100%;
-  height: 900px;
+  height: 1000px;
   border-radius: 0;
 }
 hr {
   border: dotted #0a1d37;
   border-bottom: 0;
   color: #0a1d37;
-  width: 10%;
-  border-width: 10px;
+  width: 5%;
+  border-width: 8px;
   margin: 100px auto 0px auto;
   background-color: transparent;
   opacity: 1;
@@ -125,7 +130,7 @@ hr {
   padding-left: 50px;
   position: absolute;
   left: 30%;
-  top: 32%;
+  top: 27%;
 }
 .fresh {
   font-size: 250%;
@@ -158,7 +163,39 @@ hr {
   background-color: #ff001e;
   color: white;
 }
+/* .cart-div{
+  position: absolute;
+  top: 8%;
+  right: 1%;
+} */
+a.fa-cart-{
+  font-size: 40px;
+  padding-top: 50px;
+  padding-right: 50px;
+  position: absolute;
+  color: #0a1d37;
+  top: 8%;
+  right: 3%;
+  position: fixed;
+ 
+}
+a.fa-cart-plus:hover{
+  color: coral;
+}
 /* ======== end of homepage ========== */
+/* ======== cart =========== */
+a.fa-cart-plus{
+  font-size: 30px;
+  padding-top: 50px;
+  padding-right: 10px;
+  position: absolute;
+  color: #0a1d37;
+  top: 5%;
+  right: 3%;
+  position: fixed;
+  z-index: 1;
+ 
+}
 
 /* ====== about us ======= */
 .about {
@@ -197,18 +234,24 @@ hr {
   padding-top: 100px;
 }
 .about-sec-head {
-  color: #ff005c;
-  font-size: 3rem;
+  color:#0a1d37;
+  font-size: 1.8rem;
   font-weight: 600;
   padding: 10px;
   margin: 20px;
   margin-left: 0;
 }
-
+.let{
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff005c;
+  padding: 10px;
+  padding-bottom: 50px;
+}
 .about-intro-text {
   width: 65%;
   line-height: 1.5;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 400;
   padding: 10px;
   padding-bottom: 25px;
@@ -224,7 +267,7 @@ hr {
   font-weight: 500;
   color: #e4fbff;
   background-color: #ff005c;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   border-radius: 10px;
 }
 .about-button:hover {
@@ -280,14 +323,14 @@ h3 {
 
 .menu-div {
   border-radius: 5px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
   padding-top: 25px;
 }
 .menuimage {
   width: 90%;
   height: 50%;
 }
-#menusection {
+section#menusection {
   padding-top: 100px;
 }
 
@@ -296,10 +339,21 @@ h3 {
   border-radius: 5px;
   display: inline-block;
   padding: 10px;
+  padding-bottom: 30px;
   margin: 20px;
   box-shadow: 5px 5px 5px #f6fafa, 5px 5px 5px #cfd3d3;
 }
-
+a.order-now{
+  text-decoration: none;
+  color:white;
+  padding: 15px;
+  background-color: #ff005c;
+  border-radius: 10px;
+}
+a.order-now:hover{
+  color: white;
+  background-color: #ff001e;
+}
 h4 {
   width: 130px;
   font-size: 1rem;
@@ -310,7 +364,19 @@ h4 {
 .special {
   margin: 40px;
 }
-
+a.menu-add-btn{
+  padding: 6px 14px;
+  background-color: #0a1d37;
+  margin: 5px 8px;
+ text-decoration: none;
+ border-radius: 5px;
+ margin-left: 16px;
+ margin-bottom: 15px;
+}
+a.menu-add-btn:hover{
+  color: white;
+  background-color: #ff001e;
+}
 /* ========= contacts ========== */
 .contact-container {
   display: flex;
@@ -320,6 +386,7 @@ h4 {
   padding: 20px;
   padding-left: 150px;
   padding-bottom: 100px;
+  padding-top: 130px;
 }
 .contact-div {
   text-align: left;
@@ -355,6 +422,8 @@ h4 {
 }
 .lets-talk {
   padding: 10px;
+  font-size: 1rem;
+  font-weight: 500;
   padding-left: 20px;
   padding: 20px;
   color: #ff005c;
@@ -370,7 +439,7 @@ h4 {
 
 /* ========= footer ========== */
 .mainfooter {
-  background-color: #0a1d37;
+  background-color: #131d2a;
 }
 .footerdiv {
   display: flex;
@@ -461,7 +530,7 @@ a.fa.fa-instagram {
 /* ===========media querie for width > 490 and < 950============ */
 @media screen and (max-width: 950px) and (min-width: 291px) {
   body {
-    background: none;
+  
   }
   img {
     width: 100%;
@@ -534,6 +603,10 @@ a.fa.fa-instagram {
     padding-top: 0;
     font-size: 2rem;
   }
+  .about-sec-head{
+    width: 70%;
+    font-size: 1.5rem;
+  }
   .about-div {
     width: 80%;
   }
@@ -541,8 +614,8 @@ a.fa.fa-instagram {
     width: 100%;
     padding-right: 15px;
     padding-top: 0;
-    font-size: 1.5rem;
-    line-height: 1.4;
+    font-size: 1.3rem;
+    line-height: 1.3;
   }
   .aboutimg2 {
     position: absolute;
@@ -559,9 +632,18 @@ a.fa.fa-instagram {
   .aboutimg1 {
     display: none;
   }
+  a.about-button{
+    font-size: 1.2rem;
+    padding: 10px 10px;
+
+  }
   /* ============menu============ */
   .menu-div {
     padding-bottom: 30px;
+  }
+  section#menusection{
+    margin-top: 0;
+    padding-top: 0;
   }
 
   /* =========== service==============*/
