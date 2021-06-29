@@ -5,8 +5,139 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
+    <style>
+        body{
+            background-image: url(images/bc1.jpg);
+            background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+        }
+        .admin{
+            display: flex;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            padding-left: 25%;
+            
+        }
+     .container1{
+         height: 340px;
+         width: 300px;
+         background-color:#0a1d37;
+         padding: 20px;
+         color: white;
+         margin-top: 30px;
+     }
+     .container2{
+         height: 400px;
+         width: 320px;
+         padding: 25px;
+         background-color: #ff005c;
+         color: #0a1d37;
+     }
+     label{
+         padding: 10px;
+         font-size: 1.2rem;
+         font-weight:bold;
+     }
+     input{
+         padding:0 10px;
+        
+         margin: 15px 0px;
+         width: 80%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: rgb(255, 255, 255);
+        background: none;
+         
+     }
+     input[type="text"], input[type="password"] { 
+    outline: none;
+    font-size: 1.2rem;
+    
+}
+     button{
+         text-decoration: none;
+         background-color:#0a1d37;
+         padding: 10px 20px;
+         border-radius: 5px;
+         border: none;
+         margin-top: 25px;
+         margin-left: 10px;
+         margin-bottom: 30px;
+         cursor: pointer;
+         color: white;
+     }
+     span{
+         color:white;
+         font-size: 1rem;
+         font-weight: 500;
+         width: 100%;   
+         padding-left: 25%;
+         font-weight: bold;
+     }
+     a{
+         text-decoration: none;
+         margin-top: 40px;
+     }
+     @media screen and (max-width:1050px){
+         
+        .admin{
+            width: 80%;
+            padding-left: 5%;
+        }
+     }
+     @media screen and (max-width:550px){
+         
+         .admin{
+             width: 90%;
+             padding-left: 0;
+             flex-direction: column;
+             margin-top: 0px;
+         }
+         .container1{
+             height: 140px;
+             width: 90%;
+             margin-left: 0;
+             background-color: transparent;
+             margin: 0;
+         }
+         .container2{
+             height: 300px;
+             width: 85%;
+             margin-left: auto;
+             margin-right: auto;
+             background-color: #ff005c;
+             color: white;
+             padding-bottom: 30px;
+         }
+      }
+    </style>
 </head>
-<body style="background-color: aqua;">
-<a href="index.html"> back </a>
+<body">
+    <h4>helloo</h4>
+<section class="admin">
+
+    <div class="container1">
+        <h2>Restorado</h2>
+        <h3>Login</h3>
+        <p> admin login only the authorities not for customers </p>
+
+    </div>
+    <div class="container2">
+        <h3>Admin</h3>
+        <label for="email">Email/phone</label><br>
+        <input type="text" name="username" ><br>
+        <label for="password">Password</label><br>
+        <input type="password" name="password"><br>
+        <a href="orders.html"><button> Login </button><br></a>
+
+        <a href=""><span> Forgot password ?</span></a>
+    </div>
+</section>
+
 </body>
 </html>
