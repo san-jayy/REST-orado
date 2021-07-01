@@ -1,12 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body style="background-color: blueviolet;font-size: 300px;">
-    carting items
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El-Restorado|Cart</title>
+
+    <style>
+        body{
+            padding: 20px;
+            background: url('images/about4.jpg') repeat 0 0; background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+        }
+      img {
+        height: 70px;
+        width: 70px;
+        float: left;
+        padding-top: 5px;
+      }
+      button {
+        padding: 5px;
+        border: none;
+        background-color: chartreuse;
+      }
+      .main-div {
+        width: 30%;
+        background-color: #ff005c;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+       
+        margin-top: 40px;
+        padding: 20px;
+      }
+
+      .item-div {
+        height: 80px;
+        width: 90%;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin: 15px;
+      }
+      span{
+          padding: 15px 30px;
+          margin: 10px;
+      }
+      h2{
+          display: inline;
+          padding: 10px;
+          padding-top: 20px;
+         color:#0a1d37;
+         font-size: 1.5rem;
+         font-weight: 400;
+      }
+      h3{
+          display: inline;
+          padding: 15px;
+          padding-right: 30px;
+       font-size: 1.3rem;
+       width: 50px;
+       margin-top: auto;
+       margin-bottom: auto;
+          
+      }
+      h4{
+          font-size: 1.2rem;
+          font-weight: 600;
+      }
+      p{
+          display: inline;
+          padding: 20px;
+          font-size: 1.2rem;
+          width: 100%;
+          
+      }
+      .item-name{
+          display: inline;
+          width: 40%;
+          margin-top: auto;
+          margin-bottom: auto;
+          padding: 12px;
+         
+      }
+      hr{
+          border-color: #0a1d37;
+      }
+      span{
+    color: red;
+  font-family: "Pacifico", cursive;
+  padding: 0;
+}
+      a{width: 40px;
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #0a1d37;
+            font-size: 1rem;
+            margin-top: auto;
+          margin-bottom: auto;
+           border-radius: 5px;
+        }
+        a:hover{
+            color: #ff001e;
+        }
+        .amount{
+            text-align: right;
+            padding: 30px;
+            padding-top: 0;
+        }
+        .total-amt{
+            padding: 10px;
+            padding-right: 0;
+        }
+        @media screen and (max-width:1350px){
+            .main-div{
+                width: 55%;
+            }
+        }
+        @media screen and (max-width:900px){
+            .main-div{
+                width: 65%;
+            }
+        }
+        @media screen and (max-width:650px){
+            .main-div{
+                width: 85%;
+            }
+        }
+        @media screen and (max-width:500px){
+         
+            h2{
+                font-size: 1.1rem;
+            }
+            body{
+                padding: 5px;
+            }
+            .main-div{
+                width: 95%;
+                padding: 10px;
+                
+            }
+            .item-div{
+                width: 95%;
+                padding: 5px;
+                height: 80px;
+                margin-left: 0;
+            }
+            h3{
+                margin: 0;
+                padding: 2px;
+                width: 40px;
+                margin-top: auto;
+    margin-bottom: auto;
+            }
+.item-name{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+        }
+h1{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Back</a>
+   <h1><span>Rest-</span>orado</h1>
+    <div class="main-div">
+      <div class="item-div">
+        <img src="images/plate1.png" alt="item1" />
+       <div class="item-name">
+        <h2>Barbequesalad</h2><br>
+        <p>sometext</p>
+       </div>
+       <h3>$16</h3>
+       <a href="">+ 1 -</a>
+        <!-- <button>-</button><button>1</button><button>+</button> -->
+      </div>
+      <div class="item-div">
+        <img src="images/plate2.png" alt="item1" />
+       <div class="item-name">
+        <h2>salad Fish</h2><br>
+        <p>sometext</p>
+       </div>
+       <h3>$18</h3>
+       <a href="">+ 1 -</a>
+        <!-- <button>-</button><button>1</button><button>+</button> -->
+      </div>
+      <div class="item-div">
+        <img src="images/plate3.png" alt="item1" />
+       <div class="item-name">
+        <h2>spinach veg</h2><br>
+        <p>sometext</p>
+       </div>
+       <h3>$14</h3>
+       <a href="">+ 1 -</a>
+        <!-- <button>-</button><button>1</button><button>+</button> -->
+      </div>
+
+      <div class="amount">
+          <h4>amount : 48.07$</h5>
+          <h4>gst : 05.00$</h6>
+          <h4>Delivery charge : 03.20$</h6>
+          <hr>
+          <h3 class="total-amt">Grand total : 56.27$</h3>
+          <hr>
+      </div>
+    </div>
+  </body>
 </html>
