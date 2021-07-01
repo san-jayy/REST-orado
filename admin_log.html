@@ -78,11 +78,33 @@
          width: 100%;   
          padding-left: 25%;
          font-weight: bold;
+         
      }
      a{
          text-decoration: none;
-         margin-top: 40px;
      }
+     a.back{
+            padding: 10px 15px;
+            text-decoration: none;
+            color: white;
+            background-color: #0a1d37;
+            font-size: 1rem;
+           margin: 20px;
+           border-radius: 5px;
+        }
+        a.back:hover{
+            color: #ff001e;
+        }
+
+     h2{
+             font-size: 2rem;
+         }
+
+         h4{
+             margin: 20px;
+             margin-top: 35px;
+         }
+
      @media screen and (max-width:1050px){
          
         .admin{
@@ -100,10 +122,14 @@
          }
          .container1{
              height: 140px;
-             width: 90%;
+             width: 88.5%;
              margin-left: 0;
-             background-color: transparent;
+             background-color: #0a1d37;
+             transform: rotate(0deg);
              margin: 0;
+         }
+         .note{
+             display: none;
          }
          .container2{
              height: 300px;
@@ -114,22 +140,23 @@
              color: white;
              padding-bottom: 30px;
          }
+        
       }
     </style>
 </head>
 <body">
-    <h4>helloo</h4>
+  <h4> <a class="back" href="index.html">Back</a></h4>
 <section class="admin">
 
     <div class="container1">
         <h2>Restorado</h2>
         <h3>Login</h3>
-        <p> admin login only the authorities not for customers </p>
-
+        <p>Login to view the order summary </p>
+<p class="note">Note: admin login only for the restaurent authorities not for the customers</p>
     </div>
     <div class="container2">
         <h3>Admin</h3>
-        <label for="email">Email/phone</label><br>
+        <label aria-required="true" for="email">Email/phone</label><br>
         <input type="text" name="username" ><br>
         <label for="password">Password</label><br>
         <input type="password" name="password"><br>
