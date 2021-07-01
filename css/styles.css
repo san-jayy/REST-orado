@@ -5,7 +5,8 @@ body {
   padding: 0;
   text-align: center;
   position: relative;
-  background: url('images/about4.jpg') repeat 0 0; background-repeat: no-repeat;
+  background: url("images/about4.jpg") repeat 0 0;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow-y: scroll;
@@ -13,7 +14,6 @@ body {
 }
 html {
   scroll-behavior: smooth;
-  
 }
 /* =========nav bar======= */
 .navbar {
@@ -21,7 +21,7 @@ html {
   position: fixed;
   z-index: 1;
   top: 0;
-  
+
   width: 100%;
 }
 .admin {
@@ -134,26 +134,24 @@ hr {
   left: 8%;
   top: 20%;
 }
-.home-deco{
+.home-deco {
   height: 500px;
   width: 500px;
   color: #ff005c;
- border-radius: 10px;
+  border-radius: 10px;
   position: absolute;
   top: 20%;
   right: 20%;
   background-color: #ff005c;
   transform: rotate(45deg);
 }
-.home-deco-image{
+.home-deco-image {
   height: 500px;
   width: 450px;
   border-radius: 2px;
   position: absolute;
   top: 22%;
   right: 22%;
-  
-
 }
 .fresh {
   font-size: 250%;
@@ -191,7 +189,7 @@ hr {
   top: 8%;
   right: 1%;
 } */
-a.fa-cart-plus{
+a.fa-cart-plus {
   font-size: 40px;
   padding-top: 50px;
   padding-right: 50px;
@@ -201,14 +199,13 @@ a.fa-cart-plus{
   top: 8%;
   right: 3%;
   position: fixed;
- 
 }
-a.fa-cart-plus:hover{
+a.fa-cart-plus:hover {
   color: coral;
 }
 /* ======== end of homepage ========== */
 /* ======== cart =========== */
-a.fa-cart-plus{
+a.fa-cart-plus {
   font-size: 30px;
   padding-top: 50px;
   padding-right: 10px;
@@ -218,7 +215,6 @@ a.fa-cart-plus{
   right: 3%;
   position: fixed;
   z-index: 1;
- 
 }
 
 /* ====== about us ======= */
@@ -258,14 +254,14 @@ a.fa-cart-plus{
   padding-top: 100px;
 }
 .about-sec-head {
-  color:#0a1d37;
+  color: #0a1d37;
   font-size: 1.8rem;
   font-weight: 600;
   padding: 10px;
   margin: 20px;
   margin-left: 0;
 }
-.let{
+.let {
   font-size: 3rem;
   font-weight: 700;
   color: #ff005c;
@@ -369,14 +365,14 @@ section#menusection {
   margin: 20px;
   box-shadow: 5px 5px 5px #f6fafa, 5px 5px 5px #cfd3d3;
 }
-a.order-now{
+a.order-now {
   text-decoration: none;
-  color:white;
+  color: white;
   padding: 15px;
   background-color: #ff005c;
   border-radius: 10px;
 }
-a.order-now:hover{
+a.order-now:hover {
   color: white;
   background-color: #ff001e;
 }
@@ -390,16 +386,16 @@ h4 {
 .special {
   margin: 40px;
 }
-a.menu-add-btn{
+a.menu-add-btn {
   padding: 6px 14px;
   background-color: #0a1d37;
   margin: 5px 8px;
- text-decoration: none;
- border-radius: 5px;
- margin-left: 16px;
- margin-bottom: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 16px;
+  margin-bottom: 15px;
 }
-a.menu-add-btn:hover{
+a.menu-add-btn:hover {
   color: white;
   background-color: #ff001e;
 }
@@ -554,54 +550,14 @@ a.fa.fa-instagram {
 }
 /* ========end of temp media */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ===========media querie for width > 490 and < 950============ */
 @media screen and (max-width: 950px) and (min-width: 291px) {
-              body{
-                background-image: url('images/about4.jpg') repeat 0 0; background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-              }
+  body {
+    background-image: url("images/about4.jpg") repeat 0 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
   img {
     width: 100%;
     height: 330px;
@@ -644,12 +600,12 @@ a.fa.fa-instagram {
     height: 580px;
     border-radius: 0 0 75px 75px;
   }
-.home-deco-image{
-  display: none;
-}
-.home-deco{
-  display: none;
-}
+  .home-deco-image {
+    display: none;
+  }
+  .home-deco {
+    display: none;
+  }
   .intro-text {
     width: 85%;
     margin: 0;
@@ -681,7 +637,7 @@ a.fa.fa-instagram {
     padding-top: 0;
     font-size: 2rem;
   }
-  .about-sec-head{
+  .about-sec-head {
     width: 70%;
     font-size: 1.5rem;
   }
@@ -695,7 +651,7 @@ a.fa.fa-instagram {
     font-size: 1.3rem;
     line-height: 1.3;
   }
-  .let{
+  .let {
     font-size: 2rem;
     font-weight: 700;
     color: #ff005c;
@@ -717,16 +673,15 @@ a.fa.fa-instagram {
   .aboutimg1 {
     display: none;
   }
-  a.about-button{
+  a.about-button {
     font-size: 1.2rem;
     padding: 10px 10px;
-
   }
   /* ============menu============ */
   .menu-div {
     padding-bottom: 30px;
   }
-  section#menusection{
+  section#menusection {
     margin-top: 0;
     padding-top: 0;
   }
