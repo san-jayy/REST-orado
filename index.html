@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" /> 
     <title>El-Restorado</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
@@ -17,7 +20,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
   </head>
-  <body  style="background-image: url('images/about4.jpg'); background-repeat: no-repeat;
+  <body  style="background-image: url('images/bruno.jpg'); background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;" >
 
@@ -63,8 +66,9 @@
 
       <div class="homepage" >
 
-        <img class="home-image" data-aos="fade-right" src="images/bc2.jpg" alt="image">
-
+        <img class="home-image" data-aos="fade-right" src="images/fbc1.jpg" alt="image">
+        <div class="home-deco">.</div>
+        <img   class="home-deco-image" src="images/4.jpg" alt="">
         <div class="homedisc" data-aos="fade-left">
           <h1 class="head">Start something </h1><br>
           <span class="fresh">fresh</span>
@@ -136,7 +140,7 @@
   <h2 class="service-head">Menu of the Day</h2>
 <div class="menu-div">
   <div data-aos="flip-right" class="menuitem">
-    <img  class="menuimage" src="images/plate1.png" alt="menu-1">
+    <img  class="menuimage" src="images/plate3.png" alt="menu-1">
     <h4>Barbeque Salad</h4>
     <h6>snans orissa</h6>
     <span class="price">$4.69</span><a class="menu-add-btn" href="#">add</a>
@@ -148,13 +152,13 @@
     <span class="price">$4.69</span><a class="menu-add-btn" href="#">add</a>
   </div>
   <div data-aos="flip-right" class="menuitem">
-    <img  class="menuimage" src="images/plate1.png" alt="menu-1">
+    <img  class="menuimage" src="images/plate2.png" alt="menu-1">
     <h4>Barbeque Salad</h4>
     <h6>snans orissa</h6>
     <span class="price">$4.69</span><a class="menu-add-btn" href="#">add</a>
   </div>
   <div data-aos="flip-right" class="menuitem">
-    <img  class="menuimage" src="images/plate1.png" alt="menu-1">
+    <img  class="menuimage" src="images/plate3.png" alt="menu-1">
     <h4>Barbeque Salad</h4>
     <h6>snans orissa</h6>
     <span class="price">$4.69</span><a class="menu-add-btn" href="#">add</a>
@@ -283,6 +287,15 @@ const bsCollapse = new bootstrap.Collapse(menuToggle)
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { bsCollapse.toggle() })
 })    </script> -->
+
+<script>
+   $(function(){ 
+     var navMain = $("#navbarSupportedContent");
+     navMain.on("click", "a", null, function () {
+         navMain.collapse('hide');
+     });
+ });
+</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
