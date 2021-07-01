@@ -39,7 +39,8 @@
       margin-left: 45%;
       margin-top: 30px;
     }
-    button:hover{
+
+    button:hover {
       background-color: #ff001e;
     }
 
@@ -179,17 +180,11 @@
       width: 40%;
       margin-left: auto;
       margin-right: auto;
-      
+
       border-radius: 5px;
       margin-top: 15px;
       margin-bottom: 15px;
     }
-
-
-
-
-
-
 
 
 
@@ -203,7 +198,8 @@
       .main-div {
         width: 65%;
       }
-      h3.ola{
+
+      h3.ola {
         width: 80%;
         display: block;
         padding: 10px;
@@ -212,7 +208,8 @@
         margin-top: 0;
         margin-bottom: 0;
       }
-      h2.olano{
+
+      h2.olano {
         width: 320px;
         display: block;
         margin-top: 0;
@@ -226,10 +223,12 @@
       .main-div {
         width: 85%;
       }
-      .cod{
+
+      .cod {
         display: none;
       }
-      button#btn{
+
+      button#btn {
         margin-left: 28%;
       }
     }
@@ -250,19 +249,23 @@
         padding: 10px;
 
       }
-      .cod{
+
+      .cod {
         display: none;
       }
+
       .item-div {
         width: 95%;
         padding: 5px;
         height: 80px;
         margin-left: 0;
       }
-      .olano{
+
+      .olano {
         margin-left: 50px;
       }
-      button#btn{
+
+      button#btn {
         margin-left: 25%;
       }
 
@@ -280,19 +283,22 @@
         width: 40%;
         margin-top: auto;
         margin-bottom: auto;
-        
+
       }
-      div#panel.japanel{
+
+      div#panel.japanel {
         width: 40%;
-      margin: 0;
+        margin: 0;
       }
-      img.japanel-img{
+
+      img.japanel-img {
         height: 200px;
         width: 200px;
         margin-left: 65%;
-      
+
       }
-      h3.ola{
+
+      h3.ola {
         width: 80%;
         display: block;
         padding: 10px;
@@ -302,7 +308,8 @@
         margin-bottom: 0;
         margin-left: 25%;
       }
-      h2.olano{
+
+      h2.olano {
         width: 220px;
         display: block;
         margin-top: 0;
@@ -312,7 +319,8 @@
       }
 
     }
-/* ================ end of media =================== */
+
+    /* ================ end of media =================== */
     h1 {
       margin: 0;
       padding: 0;
@@ -321,7 +329,7 @@
 
 
     /*======== js styles ========= */
-    .japanel{
+    .japanel {
       width: 40%;
       height: 60px;
       background-color: #ff005c;
@@ -332,34 +340,37 @@
       display: none;
 
     }
-    .japanel-img{
+
+    .japanel-img {
       height: 320px;
       width: 320px;
       border-radius: 150px;
       margin: 40px;
-margin-left: 30%;  
-    
-display: block;
-    }
-    
-.japanel-btn{
- margin: 30px;
- margin-left: 38%;
- display: none;
-}
+      margin-left: 30%;
 
-    .japanel-ono{
+      display: block;
+    }
+
+    .japanel-btn {
+      margin: 30px;
+      margin-left: 38%;
+      display: none;
+    }
+
+    .japanel-ono {
       font-size: 1.6rem;
       font-weight: 600;
       color: #0a1d37;
     }
-    .ola{
+
+    .ola {
       width: 50%;
       margin: 30px;
       padding: 30px;
       margin-left: 35%;
     }
-    .olano{
+
+    .olano {
       width: 40%;
       padding: 30px;
       margin: 40px;
@@ -368,14 +379,13 @@ display: block;
       font-weight: 700;
       font-size: 1.5rem;
     }
-  
   </style>
 </head>
 
 <body>
   <a href="index.html">Back</a>
   <h1><span>Rest-</span>orado</h1>
-  <div id="demo"   class="main-div">
+  <div id="demo" class="main-div">
     <div class="item-div">
       <img src="images/plate1.png" alt="item1" />
       <div class="item-name">
@@ -427,16 +437,16 @@ display: block;
 
 
   <div id="panel" class="japanel">
-    <img class="japanel-img" src="images/w1.png" alt=""> 
-  
-  <button class="japanel-btn"> go back to homepage</button><br>
-  <h3 class="ola"> your Order has been accepted </h3><br>
-  <h3 class="ola"> your Order number is :</h3><br>
-<h2 id="ordernumber" class="olano">order number</h2><br>
+    <img class="japanel-img" src="images/w1.png" alt="">
 
- 
+    <button class="japanel-btn"> go back to homepage</button><br>
+    <h3 class="ola"> your Order has been accepted </h3><br>
+    <h3 class="ola"> your Order number is :</h3><br>
+    <h2 id="ordernumber" class="olano">order number</h2><br>
+
+
   </div>
-  
+
 
   <script>
     function myFunction() {
@@ -444,9 +454,9 @@ display: block;
       document.getElementById("demo").style.display = "none";
       document.getElementById("payd").style.display = "none";
       document.getElementById("btn").style.display = "none";
-      document.getElementById("ordernumber").innerHTML=Math.floor((Math.random() * 100000000) + 1);
+      document.getElementById("ordernumber").innerHTML = Math.floor((Math.random() * 100000000) + 1);
     }
-    </script>
+  </script>
 </body>
 
 
