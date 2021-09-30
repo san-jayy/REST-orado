@@ -163,7 +163,7 @@ hr {
 .intro-text {
   padding: 20px;
   padding-bottom: 60px;
-  width: 50%;
+  width: 40%;
   line-height: 1.8;
   font-size: 2rem;
   font-family: "Rancho", cursive;
@@ -297,15 +297,14 @@ a.fa-cart-plus {
 
 /* =============== services ================= */
 .service-div {
-  width: 70%;
+  width: 85%;
   margin: 100px auto 0px auto;
   padding-top: 100px;
 }
 .service-item {
   display: inline-block;
-  width: 360px;
-
-  padding: 15px;
+  width: 25%;
+  padding: 0px;
   margin: 20px;
 }
 .offer {
@@ -316,7 +315,7 @@ a.fa-cart-plus {
 }
 .service-head {
   padding: 10px;
-  margin: 10px 20px 40px 20px;
+  margin: 10px 20px 20px 20px;
   color: #ff005c;
 }
 .servie-svg {
@@ -531,7 +530,10 @@ a.fa.fa-instagram {
     margin: 0;
   }
   .intro-text {
-    width: 90%;
+    width: 80%;
+  }
+  .home-deco-image{
+    display: none;
   }
   .about-us {
     width: 90%;
@@ -607,9 +609,9 @@ a.fa.fa-instagram {
     display: none;
   }
   .intro-text {
-    width: 85%;
+    width: 95%;
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     line-height: 1.2;
   }
 
@@ -622,7 +624,7 @@ a.fa.fa-instagram {
   .head {
     margin-top: 10px;
     font-size: 2.5rem;
-    padding-top: 60px;
+    padding-top: 10px;
   }
   .fresh {
     font-size: 2rem;
@@ -690,7 +692,17 @@ a.fa.fa-instagram {
   .service-div {
     padding-top: 100px;
     padding-bottom: 100px;
+    
+     
   }
+  .service-item{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
   h3 {
     padding: 0;
     margin: 0;
